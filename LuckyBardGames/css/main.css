@@ -1,0 +1,51 @@
+/*********************
+GENERAL 
+*********************/
+
+body {
+  font-family: "Merriweather sans"; font-size: 14px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*********************
+COLORS
+*********************/
+
+/*********************
+NAVIGATION
+*********************/
+
+
+
+/*********************
+BACKGROUND IMAGERY
+*********************/
+
+/*********************
+Title Bar
+*********************/
+
+header p {
+  background-color: grey;
+}
+
+
+
+/*********************
+*********************/
+
+/*********************
+Footer
+*********************/
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#phone {
+  width: 20px;
+}
