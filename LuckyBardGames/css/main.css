@@ -1,51 +1,81 @@
 /*********************
-GENERAL 
+Site Global Styles
 *********************/
 
-body {
-  font-family: "Merriweather sans"; font-size: 14px;
+* {
+  font-family: "Merriweather sans"; 
+  font-size: 14px;
   color: black;
-}
-
-a {
   text-decoration: none;
+
 }
 
-/*********************
-COLORS
-*********************/
 
-/*********************
-NAVIGATION
-*********************/
 
 
 
 /*********************
-BACKGROUND IMAGERY
+DOM Seperated Styles
 *********************/
 
-/*********************
-Title Bar
-*********************/
-
-header p {
+header {
+  width: 78%;
   background-color: grey;
+  display: inline-block;
 }
+
+nav {
+  width: 18%;
+  float: right;
+  text-align: right;
+  white-space: nowrap;
+}
+
+
+
+
+/*********************
+DIV Styling
+*********************/
+
+
+
+
+
+
+/*********************
+Element Specific Styles
+*********************/
+
+
 
 
 
 /*********************
 *********************/
 
+
+
+
 /*********************
-Footer
+CLASS STYLES
 *********************/
 .social-icon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
-#phone {
-  width: 20px;
+
+
+/*********************
+ID STYLES
+*********************/
+
+#compLogo {
+  height: 125px;
+  width: 125px;
+}
+
+#links {
+  list-style-type: none;
 }
