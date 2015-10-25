@@ -4,7 +4,7 @@ Site Global Styles
 
 * {
   font-family: "Merriweather sans"; 
-  font-size: 14px;
+  font-size: 68%;
   color: black;
   text-decoration: none;
 
@@ -19,20 +19,20 @@ DOM Seperated Styles
 *********************/
 
 header {
-  width: 60%;
+
   background-color: white;
-  display: inline-block;
+
+ 
+}
+
+h1 {
+  font-size: 4em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {
-  width: 23%;
-  float: right;
-  text-align: left;
-  white-space: nowrap;
-  margin-right: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
+
 }
 
 
@@ -42,9 +42,6 @@ nav {
 DIV Styling
 *********************/
 
-div {
-    border-radius: 10px;
-}
 
 
 
@@ -91,25 +88,21 @@ CLASS STYLES
 ID STYLES
 *********************/
 
-#map {
-  max-width: 100%;
+/*about page*/
+
+#map { 
   display: inline-block;
-  width: 47.5%;
+  width: 95%;
   min-height: 300px;
-  margin: 1.25%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  border-radius: 10px
 }
 
 #compLogo {
-  height: 125px;
-  width: 125px;
-  display: inline;
-}
-
-#compLogoLocation {
-  width: 12%;
-  display: inline-block;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }
 
 #links {
@@ -118,14 +111,8 @@ ID STYLES
 
 #whoframe {
   display: inline-block;
-  width: 47.5%;
-  margin: 1.25%;
-  float: right;
-}
+  width: 95%;
+  margin: 2.5%;
+  border-radius: 10px
 
-
-#lih2 {
-  width: 50%;
-  float: center;
-  display: inline;
 }
