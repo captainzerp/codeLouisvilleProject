@@ -1,0 +1,131 @@
+/*********************
+Site Global Styles
+*********************/
+
+* {
+  font-family: "Merriweather sans"; 
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+
+}
+
+
+
+
+
+/*********************
+DOM Seperated Styles
+*********************/
+
+header {
+  width: 60%;
+  background-color: white;
+  display: inline-block;
+}
+
+nav {
+  width: 23%;
+  float: right;
+  text-align: left;
+  white-space: nowrap;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+
+
+
+/*********************
+DIV Styling
+*********************/
+
+div {
+    border-radius: 10px;
+}
+
+
+
+
+/*********************
+Element Specific Styles
+*********************/
+
+header ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+header ul li {
+
+}
+
+
+/*********************
+Sub Element Specific Styles
+*********************/
+
+
+
+
+/*********************
+CLASS STYLES
+*********************/
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.selected {
+  color: red;
+  font-weight: 800;
+}
+
+.box-shadowing {
+  box-shadow: 3px 3px 6px 3px #aaa;
+}
+
+/*********************
+ID STYLES
+*********************/
+
+#map {
+  max-width: 100%;
+  display: inline-block;
+  width: 47.5%;
+  min-height: 300px;
+  margin: 1.25%;
+}
+
+#compLogo {
+  height: 125px;
+  width: 125px;
+  display: inline;
+}
+
+#compLogoLocation {
+  width: 12%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#links {
+  list-style-type: none;
+}
+
+#whoframe {
+  display: inline-block;
+  width: 47.5%;
+  margin: 1.25%;
+  float: right;
+}
+
+
+#lih2 {
+  width: 50%;
+  float: center;
+  display: inline;
+}
