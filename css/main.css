@@ -1,0 +1,189 @@
+html {
+	font-family: "josefin", sans-serif;
+	color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: silver;
+}
+
+/* selected link */
+a:active {
+    color: brown;
+}
+
+a {
+	text-decoration: none;
+}
+
+/***
+Background imagery
+***/
+body {
+	background: url("../img/DSC_0652.JPG") no-repeat center center fixed;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;	
+
+}
+
+.topperwrapper {
+	width: 100%;
+	display: inline-block;
+	background-image: -webkit-linear-gradient(rgba(26, 71, 170,.0), rgba(253, 254, 252, .9) 3%, rgba(26, 71, 170,.3));
+	-o-linear-gradient: rgba(26, 71, 170,.0), rgba(253, 254, 252, .9) 3%, rgba(26, 71, 170,.3);
+}
+
+
+
+.icon {
+	width: 30px;
+	height: 30px;
+}
+
+
+.socialmedia {
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	display: block;
+	background-color: white; 
+	border-radius: 50%;
+	margin: 0 auto;
+
+}
+
+.ultest {
+	text-decoration: none;
+	list-style-type: none;
+	list-style: none;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 3em;
+	font-style: italic;
+	color: rgb(26,71,42);
+	text-shadow: 1px 3px 7px black;
+	text-align: center;
+}
+
+
+
+.navbutton {
+	background: #DCCB85;
+	border-radius: 8px;
+	border: solid 4px black;
+	padding-top: 10px;
+	margin: 10px auto;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	width: 95%;
+	height: 2em;
+}
+
+.textwrap {
+	background-color:  rgb(0,0,0);
+	background-color: rgba(0,0,0,.85);
+	width: 95%;
+	margin: 0 auto;
+}
+
+h5 {
+	font-size: 1em;
+	text-align: center;
+}
+
+ h5 a:link {
+ 	color: black;
+ }
+
+/***************************************************************************************************************************/  
+@media screen and (min-width: 700px) {
+  
+/************************
+Navigation large enough
+*************************/
+
+/* unvisited link */
+h5 a:link {
+    color: white;
+}
+
+.header-left {
+	width: 48%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+
+.header-right {
+	width: 48%;
+	margin: 0 auto;
+	float: right;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 4em;
+	font-style: italic;
+	color: rgb(26,71,42);
+	text-shadow: 1px 3px 7px black;
+}
+
+.navbutton {
+	background: #DCCB85;
+	border-radius: 8px;
+	border: solid 4px black;
+	padding: 2px 10px;
+	padding-top: 10px;
+	margin: 15px auto;
+	margin-top: 35px;
+	color: black;
+	text-align: center;
+	display: block;
+	width: 25%;
+	height: 2em;
+}
+
+
+.socialmedia {
+	width: 40px;
+	height: 35px;
+	padding: 10px;
+
+
+
+.navtitle {
+	color: black;
+	text-align: center;
+}
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .mainbody {
+	width: 95%;
+	border: solid 2px black;
+	margin: 10px auto;
+}
+
+
+}

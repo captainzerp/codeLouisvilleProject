@@ -1,0 +1,401 @@
+/*************************************************
+Playground
+*************************************************/
+
+.pgbox {
+	width: 95%;
+	border: solid green;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	margin: 1em;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,.85);
+}
+
+
+.sqrsmall {
+	width:25px;
+	height: 25px;
+	background: red;
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.sqrbig {
+	width: 200px;
+	height: 100px;
+	background: white;
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+}
+
+
+/**************************************************************************
+Square Number 1
+**************************************************************************/
+
+.sqrone:hover { /*hover animation infinite repetition at 5 second repeat*/
+	-webkit-animation: onerun .75s infinite;
+	-moz-animation: onerun .75s infinite;
+	-o-animation: onerun .75s infinite;
+	animation: onerun .75s infinite;
+}
+/*color change effect of one for blink effect*/
+@-webkit-keyframes onerun {
+	from { background-color: red;
+	}
+	to { background: #ff5500;
+	}
+	
+}
+@-o-keyframes onerun {
+	from { background-color: red;
+	}
+	to { background: #ff5500;
+	}
+	
+}
+@-moz-keyframes onerun {
+	from { background-color: red;
+	}
+	to { background: #ff5500;
+	}
+	
+}
+@keyframes onerun {
+	from { background-color: red;
+	}
+	to { background: #ff5500;
+	}
+	
+}
+
+
+
+
+/**************************************************************************
+Square Number 4
+**************************************************************************/
+
+.sqrtwo:hover {
+	background: black;
+}
+
+
+/**************************************************************************
+Square Number
+**************************************************************************/
+
+
+.sqrthree:hover { /*Simple center axis rotation*/
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    background-color: green
+}
+
+/**************************************************************************
+Square Number 4
+**************************************************************************/
+
+
+.sqrfour {/*overriding earlier css as proof of concept*/
+	height: 110px;
+	width: 110px;
+}
+.sqrfour:hover {  
+	-webkit-animation: fourrun 10s;
+	-moz-animation: fourrun 10s;
+	-o-animation: fourrun 10s;
+	animation: fourrun 10s;
+}
+
+@-webkit-keyframes fourrun {
+	5% {
+		background: orange;
+	}
+	10% {
+		background: gray;
+	}
+	15% {
+		background: green;
+	}
+	20% {
+		background: blue;
+	}
+	25% {
+		background: purple;
+	}
+	30% {
+		background: black;
+	}
+	35% {
+		background: yellow;
+	}
+	40% {
+		background-color: white;
+	}
+	
+}
+@-o-keyframes fourrun {
+	5% {
+		background: orange;
+	}
+	10% {
+		background: gray;
+	}
+	15% {
+		background: green;
+	}
+	20% {
+		background: blue;
+	}
+	25% {
+		background: purple;
+	}
+	30% {
+		background: black;
+	}
+	35% {
+		background: yellow;
+	}
+	40% {
+		background-color: white;
+	}
+	
+}
+@-moz-keyframes fourrun {
+	5% {
+		background: orange;
+	}
+	10% {
+		background: gray;
+	}
+	15% {
+		background: green;
+	}
+	20% {
+		background: blue;
+	}
+	25% {
+		background: purple;
+	}
+	30% {
+		background: black;
+	}
+	35% {
+		background: yellow;
+	}
+	40% {
+		background-color: white;
+	}
+	
+}
+@keyframes fourrun {
+	5% {
+		background: orange;
+	}
+	10% {
+		background: gray;
+	}
+	15% {
+		background: green;
+	}
+	20% {
+		background: blue;
+	}
+	25% {
+		background: purple;
+	}
+	30% {
+		background: black;
+	}
+	35% {
+		background: yellow;
+	}
+	40% {
+		background-color: white;
+	}
+	
+}
+
+/**************************************************************************
+Square Number 5
+**************************************************************************/
+.sqrfivecontainer { /*used to prevent page breathing effect*/
+	height: 110px;
+	width: 200px;
+	display: inline-block;
+	position: relative; /*used in conjunction with absolute in the child element*/
+}
+.sqrfive {
+	-webkit-animation: fiverun 20s infinite;
+	-moz-animation: fiverun 20s infinite;
+	-o-animation: fiverun 20s infinite;
+	animation: fiverun 20s infinite;
+	box-sizing: border-box;
+	position: absolute;
+	top: 15%;  /*this and left are for centering effects*/
+	left: -12%;
+}
+/*motion and color change effect of sqrfive*/
+@-webkit-keyframes fiverun {
+	0% {
+		height: 1;
+		width: 0;
+	}
+
+	10% { 
+		height: 10px;
+		width: 200px;
+	 }
+	20% { 
+		height: 100px;
+		background: orange;
+		width: 200px;
+	}
+	40% {
+		height: 100px;
+		width: 50px;
+		background-color: turquoise;
+	}
+	60% {
+		height: 50px;
+		width: 200px;
+		background-color: pink;
+	}
+	80% {
+		height: 50px;
+		width: 50px;
+		background-color: white;
+	}
+	100% {
+		height: 0;
+		width: 0;
+	}
+}
+@-o-keyframes fiverun {
+	0% {
+		height: 1;
+		width: 0;
+	}
+
+	10% { 
+		height: 10px;
+		width: 200px;
+	 }
+	20% { 
+		height: 100px;
+		background: orange;
+		width: 200px;
+	}
+	40% {
+		height: 100px;
+		width: 50px;
+		background-color: turquoise;
+	}
+	60% {
+		height: 50px;
+		width: 200px;
+		background-color: pink;
+	}
+	80% {
+		height: 50px;
+		width: 50px;
+		background-color: white;
+	}
+	100% {
+		height: 0;
+		width: 0;
+	}
+}
+@-moz-keyframes fiverun {
+	0% {
+		height: 1;
+		width: 0;
+	}
+
+	10% { 
+		height: 10px;
+		width: 200px;
+	 }
+	20% { 
+		height: 100px;
+		background: orange;
+		width: 200px;
+	}
+	40% {
+		height: 100px;
+		width: 50px;
+		background-color: turquoise;
+	}
+	60% {
+		height: 50px;
+		width: 200px;
+		background-color: pink;
+	}
+	80% {
+		height: 50px;
+		width: 50px;
+		background-color: white;
+	}
+	100% {
+		height: 0;
+		width: 0;
+	}
+}
+@keyframes fiverun {
+	0% {
+		height: 1;
+		width: 0;
+	}
+
+	10% { 
+		height: 10px;
+		width: 200px;
+	 }
+	20% { 
+		height: 100px;
+		background: orange;
+		width: 200px;
+	}
+	40% {
+		height: 100px;
+		width: 50px;
+		background-color: turquoise;
+	}
+	60% {
+		height: 50px;
+		width: 200px;
+		background-color: pink;
+	}
+	80% {
+		height: 50px;
+		width: 50px;
+		background-color: white;
+	}
+	100% {
+		height: 0;
+		width: 0;
+	}
+}
+
+
+
+/**************************************************************************
+Square Number 6
+**************************************************************************/
+
+/*Left empty for the fun of it. Hi to my peeps at Code Louisville.*/
+
+
+@media screen and (min-width: 1024px) {
+  
+ .pgbox {
+	width: 45%;
+ 
+
+}
