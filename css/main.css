@@ -3,6 +3,8 @@ html {
 	color: white;
 }
 
+
+
 /* unvisited link */
 a:link {
     color: white;
@@ -112,6 +114,10 @@ h5 {
  	color: black;
  }
 
+.selected {
+	background: #B24926;
+}
+
 /***************************************************************************************************************************/  
 @media screen and (min-width: 700px) {
   
@@ -173,7 +179,9 @@ h1 {
 	text-align: center;
 }
 
-
+.selected {
+	background: #B24926;
+}
 
 }
 
@@ -185,5 +193,8 @@ h1 {
 	margin: 10px auto;
 }
 
+.selected {
+	background: #B24926;
+}
 
 }
