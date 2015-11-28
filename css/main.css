@@ -3,7 +3,23 @@ html {
 	color: white;
 }
 
+#tabs ul{
+	list-style-type: none;
+}
 
+.tabmenu li{
+	display: inline-block;
+	border-top: solid 2px;
+	border-right: solid 1px;
+	border-left: solid 1px;
+	border-radius: 8px;
+	margin: 1px auto;
+	padding: 0 4px;
+}
+
+.subtab {
+	border-top: solid 1px;
+}
 
 /* unvisited link */
 a:link {
